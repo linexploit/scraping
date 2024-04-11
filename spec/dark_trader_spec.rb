@@ -10,8 +10,6 @@ describe "the dark_trader function" do
   it "contains data for specific cryptocurrencies" do
     crypto_hash = dark_trader
     expect(crypto_hash.keys).to include("BTC")
-    #expect(crypto_hash.keys).to include("ETHEthereum") 
-    #expect(crypto_hash.keys).to include("BNBBNB") # "Ripple" is referred to as "XRP" on CoinMarketCap
   end
 end
 
